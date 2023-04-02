@@ -1,0 +1,70 @@
+
+body{
+    background-image: url('animeback.jpg');
+    opacity: 0.85;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .login-form, .signup-form {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  .login-form h2, .signup-form h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  button{
+    display: block;
+    width: 100%;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0059b3;
+  }
+  button:visited{
+    color: #fff;
+  }
+ 

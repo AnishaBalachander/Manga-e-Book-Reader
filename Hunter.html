@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Comic Reader</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        
+<script src="js/bootstrap.js"></script>
+
+
+<link rel="stylesheet"    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="js/bootstrap-transition.js"></script>
+</head>
+
+<style>
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-list li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .nav-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .nav-list li:hover a {
+    color: rgb(236, 59, 59);
+  }
+  .chapters ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .chapters ul li {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+  }
+  .chapters ul li:hover {
+    background-color: #ddd;
+  }
+</style>
+<body>
+  <div class="header">
+    <nav class="navbar navbar-light bg-light bg-background">
+        <div class="container-fluid align-items-center d-flex" >
+          <ul>
+            <div class="navbar-brand">
+                <a href="index.html"><img src="logo.png" alt="" width="50px"></a>
+            </div>
+          </ul>
+          
+            <ul class="nav navbar-nav navbar-right nav-item align-middle">
+              <li><a href="signup.html"><span class="input-group"><i class="glyphicon glyphicon-user"></i></span> Sign Up</a></li>
+              <li><a href="login.html"><span class="input-group"><i class="glyphicon glyphicon-log-in"></i></span> Login</a></li>
+        </ul>
+        </div>
+      </nav>
+    </div>
+      <nav class="navbar navbar-light bg-light bg-background" id="nav2">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">Completed Manga</a></li>
+          </ul> 
+          <ul>
+            <form class="navbar-form navbar-right nav-item align-middle" >
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default"><span class="input-group"><i class="glyphicon glyphicon-search"></i></span></button>
+          </form>
+        </ul>
+        </div>
+      </nav>
+    <div class="title">
+        <center><h1>e-Comic Reader</h1></center>
+    </div>
+    <html>
+  <div class="content">
+    <div class="manga-cover">
+      <center><img src="hunter.jpg" alt="Manga Cover Image" height="400px"></center>
+    </div>
+    <div class="manga-info">
+      <h1> Hunter x Hunter</h1>
+      <p><b>Author:</b> Yoshihiro Togashi </p>
+      <p><b>Genre:</b> Action, Adventure, Fantasy</p>
+      <p><b>Status:</b> Completed</p>
+      <p><b>Summary:</b> Hunters devote themselves to accomplishing hazardous tasks, all from traversing the world's uncharted territories to locating rare items and monsters. Before becoming a Hunter, one must pass the Hunter Examination—a high-risk selection process in which most applicants end up handicapped or worse, deceased.
+
+Ambitious participants who challenge the notorious exam carry their own reason. What drives 12-year-old Gon Freecss is finding Ging, his father and a Hunter himself. Believing that he will meet his father by becoming a Hunter, Gon takes the first step to walk the same path.</p></div>
+  </div>
+  <div class="chapters" style="background-color: blanchedalmond;">
+    <hr>
+    <h2>Chapter List:</h2>
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1a5G99x_piVJHr2S0O-9T9tHzZxnCJJKQ/view?usp=sharing">Chapter 1</a></li>
+      <li><a href="https://drive.google.com/file/d/1GjIWVsaIB_8r18jwDdyIb5KnxVi7DzvF/view?usp=share_link">Chapter 2</a></li>
+      <li><a href="https://drive.google.com/file/d/1T98lY_8veXPOziJAW2VZLuPuZYne9a4h/view?usp=share_link">Chapter 3</a></li>
+      <!-- Repeat for all chapters -->
+    </ul>
+  </div>
+</body>
+</html>
